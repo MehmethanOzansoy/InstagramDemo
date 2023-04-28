@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Twitter Example Page</title>
+    <!-- Bootstrap 5 CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Twitter</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Explore</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Notifications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Messages</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search Twitter" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Settings</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container my-3">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Trending</h5>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item"><a href="#">#Bootstrap</a></li>
+                            <li class="list-group-item"><a href="#">#WebDesign</a></li>
+                            <li class="list-group-item"><a href="#">#Coding</a></li>
+                            <li class="list-group-item"><a href="#">#JavaScript</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">What's happening</< /h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam aliquam
+                                eros eu turpis efficitur, ac blandit odio luctus. Etiam fringilla nisl vel vestibulum
+                                gravida. Curabitur sodales leo et neque venenatis bibendum. Vestibulum in eleifend sem,
+                                vel mattis lorem. Nam id justo id tortor congue hendrerit eu sed velit. Morbi vel semper
+                                nulla. Vestibulum maximus a turpis quis porttitor. Sed tempor euismod magna, non iaculis
+                                risus convallis quis. Ut dapibus velit odio, ac luctus justo pellentesque eget. Aliquam
+                                sit amet ex vitae velit elementum tincidunt at in massa. In egestas ullamcorper turpis a
+                                lacinia.</p>
+                            <a href="#" class="card-link">Read more</a>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">Recent Tweets</h5>
+                        <div class="card-text">
+                            <div class="media">
+                                <img src="https://via.placeholder.com/50" class="mr-3" alt="...">
+                                <div class="media-body">
+                                    <h6 class="mt-0">@johndoe</h6>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam aliquam eros eu
+                                        turpis efficitur, ac blandit odio luctus.</p>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <img src="https://via.placeholder.com/50" class="mr-3" alt="...">
+                                <div class="media-body">
+                                    <h6 class="mt-0">@janedoe</h6>
+                                    <p>Etiam fringilla nisl vel vestibulum gravida. Curabitur sodales leo et neque
+                                        venenatis bibendum.</p>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <img src="https://via.placeholder.com/50" class="mr-3" alt="...">
+                                <div class="media-body">
+                                    <h6 class="mt-0">@johndoe</h6>
+                                    <p>Sed tempor euismod magna, non iaculis risus convallis quis. Ut dapibus velit
+                                        odio, ac luctus justo pellentesque eget.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Who to follow</h5>
+                        <div class="card-text">
+                            <div class="media mb-3">
+                                <img src="https://via.placeholder.com/50" class="mr-3" alt="...">
+                                <div class="media-body">
+                                    <h6 class="mt-0">John Doe</h6>
+                                    <button class="btn btn-primary">Follow</button>
+                                </div>
+                            </div>
+                            <div class="media mb-3">
+                                <img src="https://via.placeholder.com/50" class="mr-3" alt="...">
+                                <div class="media-body">
+                                    <h6 class="mt-0">Jane Doe</h6>
+                                    <button class="btn btn-primary">Follow</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
